@@ -11,6 +11,7 @@
 		4D91C9882B0834D000C09DD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91C9872B0834D000C09DD6 /* ContentView.swift */; };
 		4D91C98A2B0834D100C09DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D91C9892B0834D100C09DD6 /* Assets.xcassets */; };
 		4D91C98E2B0834D100C09DD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D91C98D2B0834D100C09DD6 /* Preview Assets.xcassets */; };
+		4D91C9982B0869FB00C09DD6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91C9972B0869FB00C09DD6 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		4D91C9892B0834D100C09DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D91C98B2B0834D100C09DD6 /* Cookie_Cards.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cookie_Cards.entitlements; sourceTree = "<group>"; };
 		4D91C98D2B0834D100C09DD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D91C9962B083A1D00C09DD6 /* Cookie-Cards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Cookie-Cards-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4D91C9972B0869FB00C09DD6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +55,13 @@
 		4D91C9842B0834D000C09DD6 /* Cookie Cards */ = {
 			isa = PBXGroup;
 			children = (
+				4D91C9962B083A1D00C09DD6 /* Cookie-Cards-Info.plist */,
 				4D91C9852B0834D000C09DD6 /* Cookie_CardsApp.swift */,
 				4D91C9872B0834D000C09DD6 /* ContentView.swift */,
 				4D91C9892B0834D100C09DD6 /* Assets.xcassets */,
 				4D91C98B2B0834D100C09DD6 /* Cookie_Cards.entitlements */,
 				4D91C98C2B0834D100C09DD6 /* Preview Content */,
+				4D91C9972B0869FB00C09DD6 /* CardView.swift */,
 			);
 			path = "Cookie Cards";
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D91C9882B0834D000C09DD6 /* ContentView.swift in Sources */,
+				4D91C9982B0869FB00C09DD6 /* CardView.swift in Sources */,
 				4D91C9862B0834D000C09DD6 /* Cookie_CardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,12 +280,15 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cookie-Cards-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -312,12 +321,15 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cookie-Cards-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
