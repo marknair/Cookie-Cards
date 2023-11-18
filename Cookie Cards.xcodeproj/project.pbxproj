@@ -12,6 +12,8 @@
 		4D91C98A2B0834D100C09DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D91C9892B0834D100C09DD6 /* Assets.xcassets */; };
 		4D91C98E2B0834D100C09DD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D91C98D2B0834D100C09DD6 /* Preview Assets.xcassets */; };
 		4D91C9982B0869FB00C09DD6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91C9972B0869FB00C09DD6 /* CardView.swift */; };
+		4D91C99A2B095F0900C09DD6 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91C9992B095F0900C09DD6 /* CardModel.swift */; };
+		4D91C99C2B09609B00C09DD6 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91C99B2B09609B00C09DD6 /* CardData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		4D91C98D2B0834D100C09DD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D91C9962B083A1D00C09DD6 /* Cookie-Cards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Cookie-Cards-Info.plist"; sourceTree = SOURCE_ROOT; };
 		4D91C9972B0869FB00C09DD6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4D91C9992B095F0900C09DD6 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		4D91C99B2B09609B00C09DD6 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,8 @@
 		4D91C9792B0834D000C09DD6 = {
 			isa = PBXGroup;
 			children = (
+				4D91C9992B095F0900C09DD6 /* CardModel.swift */,
+				4D91C99B2B09609B00C09DD6 /* CardData.swift */,
 				4D91C9842B0834D000C09DD6 /* Cookie Cards */,
 				4D91C9832B0834D000C09DD6 /* Products */,
 			);
@@ -144,7 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D91C99C2B09609B00C09DD6 /* CardData.swift in Sources */,
 				4D91C9882B0834D000C09DD6 /* ContentView.swift in Sources */,
+				4D91C99A2B095F0900C09DD6 /* CardModel.swift in Sources */,
 				4D91C9982B0869FB00C09DD6 /* CardView.swift in Sources */,
 				4D91C9862B0834D000C09DD6 /* Cookie_CardsApp.swift in Sources */,
 			);

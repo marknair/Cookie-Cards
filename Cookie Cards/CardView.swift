@@ -7,23 +7,29 @@
 
 import SwiftUI
 
-// MARK: PROPERTIES
-var gradient = [Color("Color01"), Color("Color02")]
-
-// MARK: BODY
-
 struct CardView: View {
+    // MARK: PROPERTIES
+    var card: Card
+    var gradient = [Color(.color01), Color(.color02)]
+    
+    // MARK: BODY
     var body: some View {
         ZStack {
             
-            Image("cc")
+            Image(card.imageName)
+                .offset(y: -90)
             
             VStack {
-                Text("Chocolate Chip")
+                Text(card.title)
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
+                Text(card.headline)
+                    .fontWeight(.light)
+                    .foregroundStyle(.white)
+                    .italic()
+                    .minimumScaleFactor(0.75)
             }
             .offset(y: -218)
             
@@ -31,7 +37,7 @@ struct CardView: View {
                 print("Tapped")
             } label: {
                 HStack {
-                    Text("More".uppercased())
+                    Text(card.callToAction.uppercased())
                         .fontWeight(.heavy)
                         .foregroundStyle(.white)
                         .accentColor(.white)
@@ -41,19 +47,19 @@ struct CardView: View {
                 }
                 .padding(.vertical)
                 .padding(.horizontal, 24)
-                .background(LinearGradient(gradient: Gradient(colors: gradient), startPoint: .top, endPoint: .bottom))
+                .background(LinearGradient(gradient: Gradient(colors: card.gradientColors), startPoint: .top, endPoint: .bottom))
                 .clipShape(Capsule())
                 .shadow(color: Color("ColorShadow"), radius: 6, x: 0, y: 3)
             }
             .offset(y: 230)
         }
         .frame(width: 335, height: 545)
-        .background(LinearGradient(gradient: Gradient(colors: gradient), startPoint: .top, endPoint: .bottom))
+        .background(LinearGradient(gradient: Gradient(colors: card.gradientColors), startPoint: .top, endPoint: .bottom))
         .cornerRadius(16)
         .shadow(radius: 8)
     }
 }
 
 #Preview {
-    CardView()
+    CardView(card: cardData[0])
 }
