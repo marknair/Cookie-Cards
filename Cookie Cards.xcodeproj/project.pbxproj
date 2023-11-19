@@ -14,7 +14,6 @@
 		4D91C9982B0869FB00C09DD6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91C9972B0869FB00C09DD6 /* CardView.swift */; };
 		4D91C99A2B095F0900C09DD6 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91C9992B095F0900C09DD6 /* CardModel.swift */; };
 		4D91C99C2B09609B00C09DD6 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91C99B2B09609B00C09DD6 /* CardData.swift */; };
-		4D91C99E2B096F7600C09DD6 /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D91C99D2B096F7600C09DD6 /* sound-chime.mp3 */; };
 		4D91C9A02B096FDC00C09DD6 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91C99F2B096FDC00C09DD6 /* PlaySound.swift */; };
 		4D91C9A22B09737B00C09DD6 /* happyCookie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D91C9A12B09737B00C09DD6 /* happyCookie.mp3 */; };
 /* End PBXBuildFile section */
@@ -30,7 +29,6 @@
 		4D91C9972B0869FB00C09DD6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		4D91C9992B095F0900C09DD6 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		4D91C99B2B09609B00C09DD6 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
-		4D91C99D2B096F7600C09DD6 /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
 		4D91C99F2B096FDC00C09DD6 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		4D91C9A12B09737B00C09DD6 /* happyCookie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = happyCookie.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +67,6 @@
 				4D91C99F2B096FDC00C09DD6 /* PlaySound.swift */,
 				4D91C9992B095F0900C09DD6 /* CardModel.swift */,
 				4D91C99B2B09609B00C09DD6 /* CardData.swift */,
-				4D91C99D2B096F7600C09DD6 /* sound-chime.mp3 */,
 				4D91C9962B083A1D00C09DD6 /* Cookie-Cards-Info.plist */,
 				4D91C9852B0834D000C09DD6 /* Cookie_CardsApp.swift */,
 				4D91C9872B0834D000C09DD6 /* ContentView.swift */,
@@ -149,7 +146,6 @@
 			files = (
 				4D91C98E2B0834D100C09DD6 /* Preview Assets.xcassets in Resources */,
 				4D91C9A22B09737B00C09DD6 /* happyCookie.mp3 in Resources */,
-				4D91C99E2B096F7600C09DD6 /* sound-chime.mp3 in Resources */,
 				4D91C98A2B0834D100C09DD6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
